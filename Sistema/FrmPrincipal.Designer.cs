@@ -61,28 +61,28 @@
             // clientesToolStripMenuItem
             // 
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            clientesToolStripMenuItem.Size = new Size(180, 22);
+            clientesToolStripMenuItem.Size = new Size(124, 22);
             clientesToolStripMenuItem.Text = "&Clientes";
             clientesToolStripMenuItem.Click += clientesToolStripMenuItem_Click;
             // 
             // empresasToolStripMenuItem
             // 
             empresasToolStripMenuItem.Name = "empresasToolStripMenuItem";
-            empresasToolStripMenuItem.Size = new Size(180, 22);
+            empresasToolStripMenuItem.Size = new Size(124, 22);
             empresasToolStripMenuItem.Text = "&Empresas";
             empresasToolStripMenuItem.Click += empresasToolStripMenuItem_Click;
             // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            sairToolStripMenuItem.Size = new Size(180, 22);
+            sairToolStripMenuItem.Size = new Size(124, 22);
             sairToolStripMenuItem.Text = "&Produtos";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
             // sairToolStripMenuItem1
             // 
             sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            sairToolStripMenuItem1.Size = new Size(180, 22);
+            sairToolStripMenuItem1.Size = new Size(124, 22);
             sairToolStripMenuItem1.Text = "&Sair";
             sairToolStripMenuItem1.Click += sairToolStripMenuItem1_Click;
             // 
@@ -129,6 +129,7 @@
             Name = "FrmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sistema";
+            Load += FrmPrincipal_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
