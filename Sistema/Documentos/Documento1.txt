@@ -36,7 +36,7 @@ DadosBancarios (Banco, Agencia, Tipo de Conta)
 Observacao
 ======================
 NomeContato
-CPFContato
+CPFContato 
 TelefoneContato
 
 ======================================
