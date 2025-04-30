@@ -12,6 +12,7 @@ namespace Sistema.Modelos
         private DateTime DataCadastro { get; set; }
         private string RazaoSocial { get; set; }
         private string NomeFantasia { get; set; }
+        private string EmailEmpresa { get; set; }
         private string CNPJ { get; set; }
         private int InscricaoEstadual { get; set; }
         private string TelefoneEmpresa { get; set; }
