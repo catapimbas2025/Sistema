@@ -42,8 +42,9 @@ TelefoneContato
 ======================================
 Campos para FrmClientes
 
-DataCadastro
 IdCliente
+DataCadastro
+
 Cliente
 CPF
 RG

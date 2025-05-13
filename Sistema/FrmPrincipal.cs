@@ -57,10 +57,11 @@ namespace Sistema
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-            IsMdiContainer = true;
-            FrmProdutos produtos = new FrmProdutos();
-            using var _ = produtos.MdiParent = this;
-               private void SetBackGroundColorOfMDIForm()
+            //IsMdiContainer = true;
+            //FrmProdutos produtos = new FrmProdutos();
+            //using var _ = produtos.MdiParent = this;
+        }
+        private void SetBackGroundColorOfMDIForm()
         {
             this.BackColor = Color.LightBlue;
 
