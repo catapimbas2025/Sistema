@@ -42,81 +42,85 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(272, 14);
+            label1.Location = new Point(311, 19);
             label1.Name = "label1";
-            label1.Size = new Size(146, 15);
+            label1.Size = new Size(183, 20);
             label1.TabIndex = 0;
             label1.Text = "CADASTRO EMPRESARIAL";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(35, 80);
+            label2.Location = new Point(40, 107);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(50, 20);
             label2.TabIndex = 1;
             label2.Text = "label2";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(104, 80);
+            textBox1.Location = new Point(119, 107);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(114, 27);
             textBox1.TabIndex = 2;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(35, 133);
+            label3.Location = new Point(40, 177);
             label3.Name = "label3";
-            label3.Size = new Size(38, 15);
+            label3.Size = new Size(50, 20);
             label3.TabIndex = 1;
             label3.Text = "label2";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(104, 133);
+            textBox2.Location = new Point(119, 177);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(114, 27);
             textBox2.TabIndex = 2;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(35, 193);
+            label4.Location = new Point(40, 257);
             label4.Name = "label4";
-            label4.Size = new Size(38, 15);
+            label4.Size = new Size(50, 20);
             label4.TabIndex = 1;
             label4.Text = "label2";
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(104, 193);
+            textBox3.Location = new Point(119, 257);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
+            textBox3.Size = new Size(114, 27);
             textBox3.TabIndex = 2;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(35, 246);
+            label5.Location = new Point(40, 328);
             label5.Name = "label5";
-            label5.Size = new Size(38, 15);
+            label5.Size = new Size(50, 20);
             label5.TabIndex = 1;
             label5.Text = "label2";
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(104, 246);
+            textBox4.Location = new Point(119, 328);
+            textBox4.Margin = new Padding(3, 4, 3, 4);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
+            textBox4.Size = new Size(114, 27);
             textBox4.TabIndex = 2;
             // 
             // FrmEmpresas
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(textBox4);
             Controls.Add(label5);
             Controls.Add(textBox3);
@@ -126,8 +130,10 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FrmEmpresas";
             Text = "FrmEmpresas";
+            Load += FrmEmpresas_Load;
             ResumeLayout(false);
             PerformLayout();
         }
