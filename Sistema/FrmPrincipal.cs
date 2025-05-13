@@ -29,7 +29,8 @@ namespace Sistema
         private void sobreToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FrmSobre sobre = new FrmSobre();
-            sobre.ShowDialog();
+            sobre.MdiParent = this;
+            sobre.Show();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
@@ -46,20 +47,23 @@ namespace Sistema
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmClientes clientes = new FrmClientes();
-            clientes.ShowDialog();
+           clientes.MdiParent = this;
+            clientes.Show();
         }
 
         private void empresasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmEmpresas empresas = new FrmEmpresas();
-            empresas.ShowDialog();
+            empresas.MdiParent = this;
+            empresas.Show();
         }
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-            IsMdiContainer = true;
-            FrmProdutos produtos = new FrmProdutos();
-            using var _ = produtos.MdiParent = this;
+            //IsMdiContainer = true;
+            //FrmProdutos produtos = new FrmProdutos();
+            //using var _ = produtos.MdiParent = this;
+        }
                private void SetBackGroundColorOfMDIForm()
         {
             this.BackColor = Color.LightBlue;
